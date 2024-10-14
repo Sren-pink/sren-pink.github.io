@@ -1,4 +1,4 @@
-* {
+a* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -171,19 +171,8 @@ svg, #name, button {
 }
 
 #name:hover ~ #pic img{
-    animation: fade 2s infinite;
-}
-
-@keyframes fade {
-  0% {
-    opacity: 1; /* Start with full opacity */
-  }
-  50% {
-    opacity: 0.2; /* Fade to 0.2 opacity at 50% of the animation */
-  }
-  100% {
-    opacity: 1; /* Fade back to full opacity by the end */
-  }
+    opacity: 0.2;
+    transition: opacity 2s ease-in;
 }
 
 button:hover {
