@@ -72,7 +72,6 @@ li {
     top: 10vw;
     right: 10vw;
     z-index: 0;
-    transition: opacity 1s ease-in-out;
 }
 
 svg {
@@ -172,7 +171,19 @@ svg, #name, button {
 }
 
 #name:hover ~ #pic img{
-    opacity: .5;
+    animation: fade 2s infinite;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1; /* Start with full opacity */
+  }
+  50% {
+    opacity: 0.2; /* Fade to 0.2 opacity at 50% of the animation */
+  }
+  100% {
+    opacity: 1; /* Fade back to full opacity by the end */
+  }
 }
 
 button:hover {
