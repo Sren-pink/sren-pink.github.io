@@ -209,7 +209,7 @@ button:hover {
     svg {
         position: absolute;
         left: 0vw;
-        margin-top: -110vw;
+        margin-top: -90vw;
         filter: drop-shadow(20px -25px 50px rgba(187, 169, 224, 0.25));
     }
     #name {
