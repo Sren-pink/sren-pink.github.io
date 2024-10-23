@@ -204,12 +204,12 @@ button:hover {
     }
 }
 
-@media screen and (min-width: 390px) and (max-width: 450px) {
+@media screen and (min-width: 300px) and (max-width: 600px) {
     /* Styles for screens that are exactly 1440px wide */
     svg {
         position: absolute;
         left: 0vw;
-        margin-top: 20vw;
+        margin-top: -10vw;
         filter: drop-shadow(20px -25px 50px rgba(187, 169, 224, 0.25));
     }
     #name {
