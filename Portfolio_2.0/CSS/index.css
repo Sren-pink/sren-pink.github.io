@@ -184,13 +184,32 @@ button:hover {
 }
 
 /* media/responsiveness */
-
-@media screen and (min-width: 1440px) and (max-width: 1440px) {
+@media screen and (min-width: 1301px) and (max-width: 1500px) {
     /* Styles for screens that are exactly 1440px wide */
     svg {
         position: absolute;
         left: 0vw;
-        margin-top: -2vw;
+        margin-top: -10vw;
+        filter: drop-shadow(20px -25px 50px rgba(187, 169, 224, 0.25));
+    }
+    #name {
+        position: absolute;
+        left: 10vw;
+        top: 28vw;
+    }
+    .about_me_des {
+        position: relative;
+        top: 13vw;
+        right: 2vw;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+    /* Styles for screens that are exactly 1440px wide */
+    svg {
+        position: absolute;
+        left: 0vw;
+        margin-top: -100vw;
         filter: drop-shadow(20px -25px 50px rgba(187, 169, 224, 0.25));
     }
     #name {
