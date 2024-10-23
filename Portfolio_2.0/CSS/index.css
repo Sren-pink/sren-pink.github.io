@@ -204,7 +204,7 @@ button:hover {
     }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1300px) {
+@media screen and (min-width: 390px) and (max-width: 450px) {
     /* Styles for screens that are exactly 1440px wide */
     svg {
         position: absolute;
