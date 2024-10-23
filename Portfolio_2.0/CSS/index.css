@@ -190,17 +190,17 @@ button:hover {
     svg {
         position: absolute;
         left: 0vw;
-        margin-top: -3vw;
+        margin-top: -2vw;
         filter: drop-shadow(20px -25px 50px rgba(187, 169, 224, 0.25));
     }
     #name {
         position: absolute;
         left: 10vw;
-        top: 50vw;
+        top: 28vw;
     }
     .about_me_des {
         position: relative;
-        top: 15vw;
+        top: 13vw;
         right: 2vw;
     }
 }
