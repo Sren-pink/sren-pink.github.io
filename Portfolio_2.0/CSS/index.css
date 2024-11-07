@@ -199,8 +199,13 @@ button:hover {
     }
     .about_me_des {
         position: relative;
-        top: 10vw;
+        top: 8vw;
         right: 2vw;
+    }
+
+    button {
+        position: absolute;
+        top: 50vw;
     }
 }
 
